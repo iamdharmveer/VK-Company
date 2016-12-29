@@ -1,0 +1,1 @@
+"use strict";!function(e,i){var n=new i.Views.LoaderBarPageView;e(window).on("load",function(){n.hide()})}(jQuery,App);

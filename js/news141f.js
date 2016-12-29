@@ -1,0 +1,1 @@
+"use strict";!function(e,i){var l=e(".news-list"),n=e(".iscroll-gallery"),r=new i.Views.LoaderBarPageView;e(window).on("load",function(){r.hide(),l.masonry({itemSelector:".news-list li"})}),n.gallery()}(jQuery,App);
