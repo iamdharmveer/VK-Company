@@ -1,0 +1,1 @@
+"use strict";!function(e,n){e(function(){var o=e(".fullscreen"),i=e(".project-info"),l=new n.Views.LoaderBarPageView;o.fullscreen(),o.gallery(),e(window).on("load",function(){l.hide()}),e(".toggle-info").on("click",function(e){e.preventDefault(),i.toggleClass("open")})})}(jQuery,App);
